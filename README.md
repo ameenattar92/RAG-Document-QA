@@ -1,4 +1,12 @@
-# RAG Document Q&A with LangChain, Groq, FAISS, and Streamlit
+# RAG Document Q&A with LangChain, Llama3, Groq, FAISS, and Streamlit
+
+## 📸 Screenshots
+
+### Document Embedding Created
+![Vector Database Ready](./Streamlit SS/RAG_1.png)
+
+### Query & Answer Result
+![Query Result](./Streamlit SS/RAG_2.png)
 
 A Retrieval-Augmented Generation (RAG) application that lets you ask questions about research papers stored as PDF files. The app loads documents from a local folder, splits them into chunks, stores embeddings in FAISS, retrieves the most relevant chunks for a query, and uses a Groq-hosted LLM to generate grounded answers.
 
@@ -128,5 +136,6 @@ This project is for learning and experimentation purposes.
 Built with:
 - Streamlit 
 - LangChain 
+- Llama3
 - Groq 
 - FAISS
